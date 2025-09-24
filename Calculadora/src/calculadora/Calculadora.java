@@ -80,7 +80,7 @@ public class Calculadora {
         }
     }
 
-    private String evaluateExpression(String expression) {
+    public String evaluateExpression(String expression) {
         try {
             double result = new Object() {
                 int pos = -1;
